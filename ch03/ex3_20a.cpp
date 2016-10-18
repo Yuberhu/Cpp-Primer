@@ -20,8 +20,8 @@ int main()
         return -1;
     }
 
-    for (int i = 0; i != ivec.size() - 1; ++i)
-        cout << ivec[i] + ivec[i + 1] << " ";
+    for (int i = 1; i != ivec.size() - 1; ++i)
+        cout << ivec[i-1] + ivec[i] << " ";
     cout << endl;
     
     return 0;
